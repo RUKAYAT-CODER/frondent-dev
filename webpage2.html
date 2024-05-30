@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    input{
+      padding: 10px 24px;
+      border-radius: 4px;
+      border: 1px solid orangered;
+      /* background-color: rgb(112, 112, 112); */
+      margin-bottom: 20px;
+    }
+    span{
+      color: orangered;
+    }
+    button{
+      padding: 10px 16px;
+      background-color: orangered;
+      color: black;
+      outline: none;
+      border: none;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    a{
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      cursor: pointer;
+      padding-left: 50px;
+      padding-right: 10px;
+    }
+    .design{
+      color: orangered;
+    }
+    .search-input{
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      background-color: rgb(18, 25, 31);
+      color: white;
+      
+    }
+    .search-input::placeholder{
+      color: white;
+    }
+    .search-button{
+       border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      color: white;
+    }
+    .btn{
+      color: black;
+      background-color: white;
+      border: 1px solid black;
+    }
+    .spanchanged{
+      color: black;
+      font-weight: 300;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- <nav>
+      <img src="" alt="Logo">
+      <a href="">Home</a>
+      <a href="">Send Money</a>
+      <a href="">Receive Money</a>
+      <a href="">Pages</a>
+      <a href="">About</a>
+      <a href="">Blog</a>
+      <a href="">Contact</a>
+      <input type="button" value="Login">
+
+  </nav> -->
+  <nav>
+    <img src="./image/logo.png" alt="Logo" width="50px" height="25px">
+    <a href="index.html">HOME</a>
+    <a href="webpage2.html">CLASSWORK2</a>
+    <a href="tables.html">TABLES</a>
+    <a href="" class="design">DESIGN</a>
+    <a href="">CONTACT</a>
+    <input type="text" placeholder="Type to Search" class="search-input"><button class="search-button">Search</button><br>
+  </nav>
+</header>
+<br>
+  
+  <main>
+    <p>SIMPLE AND EASY WAY TO</p>
+    <h1>Transfer Money Across <br> World In Real Time <br> With No Charge</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quaerat, sunt laudantium atque <br> suscipit libero, distinctio odit sapiente, perferendis aperiam voluptatibus. <br> Ipsum suscipit maxime enim molestiae, quis dolores est fugiat!</p>
+    <button class="btn">Watch Video</button>
+    
+  </main>
+  <aside>
+    <h3>Send Money</h3>
+    <form action="">
+      <label for="">Send Money</label><br>
+      <!-- <input type="text" placeholder="$1,000.00"> -->
+      <select name="Country-currency" id="">
+        <option value=""> $1,000.00   |   🚋USD</option>
+        <option value=""> N 1,000 .00  |  🚞Naira</option>
+        <option value="">C 2,000.00   |🚅Cedis</option>
+        <option value=""> P 1,200.00  |🚚Pounds</option>
+        <option value=""> E 2,00.00   |🚑Euros</option>
+      </select><br><br>
+      <label for="">Receiver Country</label><br>
+      <select name="country" id="">
+        <option value="usa">Select country</option>
+        <option value="usa">USA</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="ghana">Ghana</option>
+        <option value="ghana">UK</option>
+      </select><br><br>
+      <label for="">Delivery Type</label><br>
+      <select name="delivery" id="">
+        <option value="">Choose delivery type</option>
+        <option value="nigeria">Home delivery</option>
+        <option value="ghana">Konga</option>
+        <option value="ghana">Passle</option>
+        <option value="ghana">Land</option>
+      </select><br> <br>
+      <button class="btn">Continue Transaction  ➡</button>
+    </form>
+    <p>By clicking continue. I agree with <span class="spanchanged">Terms and Policy</span></p>
+  </aside>
+
+
+</body>
+</html>

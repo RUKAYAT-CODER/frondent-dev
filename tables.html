@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tables</title>
+  <style>
+    .recess, .launch, caption{
+      background-color: rgb(30, 157, 200);
+    }
+    .time{
+      background-color: rgb(105, 161, 218);
+    }
+    input{
+      padding: 10px 24px;
+      border-radius: 4px;
+      border: 1px solid orangered;
+      /* background-color: rgb(112, 112, 112); */
+      margin-bottom: 20px;
+    }
+    span{
+      color: orangered;
+    }
+    button{
+      padding: 10px 16px;
+      background-color: orangered;
+      color: black;
+      outline: none;
+      border: none;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    a{
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      cursor: pointer;
+      padding-left: 50px;
+      padding-right: 10px;
+    }
+    .design{
+      color: orangered;
+    }
+    .search-input{
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      background-color: rgb(18, 25, 31);
+      color: white;
+      
+    }
+    .search-input::placeholder{
+      color: white;
+    }
+    .search-button{
+       border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="./image/logo.png" alt="Logo" width="50px" height="25px">
+      <a href="index.html">HOME</a>
+      <a href="webpage2.html">CLASSWORK2</a>
+      <a href="tables.html">TABLES</a>
+      <a href="" class="design">DESIGN</a>
+      <a href="">CONTACT</a>
+      <input type="text" placeholder="Type to Search" class="search-input"><button class="search-button">Search</button>
+    </nav>
+  </header>
+  <table border="1">
+    <caption>Weekly Planner</caption>
+    <tr>
+      <th></th>
+      <th  scope="col">Monday</th>
+      <th scope="col">Tuesday</th>
+      <th scope="col">Wednesday</th>
+      <th scope="col">Thursday</th>
+      <th scope="col">Friday</th>
+    </tr>
+    <tr>
+      <th scope="row">6am - 7am</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      
+    </tr>
+    
+    <tr>
+      <th scope="row">7am - 8am</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">8am - 9am</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    
+    </tr>
+    <tr>
+      <th scope="row">9am - 10am</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    
+    </tr>
+    <tr>
+      <th scope="row" >10am - 11am</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    
+    </tr>
+    <tr>
+      <th scope="row">11am - 12noon</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">12noon - 1pm</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table> <br>
+
+  <table border="1" class="table2">
+    <caption>Weekly Classroom Schedule</caption>
+    <tr>
+      <th scope="col">Time</th>
+      <th scope="col">Monday</th>
+      <th scope="col">Tuesday</th>
+      <th scope="col">Wednesday</th>
+      <th scope="col">Thursday</th>
+      <th scope="col">Friday</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    
+    </tr>
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    
+    </tr>
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    
+    </tr>
+    <tr>
+      <th colspan="6" class="recess">Recess</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td>0</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    
+    </tr>
+    <tr>
+      <td></td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    
+    </tr>
+    <tr>
+      <td></td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    
+    </tr>
+    <tr>
+      <th colspan="6" class="launch">Launch</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td>2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    
+    </tr>
+  </table><br>
+  
+</body>
+</html>
